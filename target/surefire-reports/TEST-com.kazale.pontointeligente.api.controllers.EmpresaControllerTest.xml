@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kazale.pontointeligente.api.controllers.EmpresaControllerTest" time="0.054" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_201\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mary\Documents\workspace21\ponto-inteligente-api"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.rmi.server.randomIDs" value="true"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mary\Documents\workspace21\ponto-inteligente-api"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mary\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Mary\Documents\workspace21\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3084385785948213579.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Mary\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Dev_Programs\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;;C:\Program Files\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Mary"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mary"/>
+    <property name="java.class.path" value="C:\Program Files\spring-tool-suite-4-4.1.2.RELEASE-e4.10.0-win32.win32.x86_64\sts-4.1.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_201"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_201\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_201\lib\resources.jar;C:\Program Files\Java\jre1.8.0_201\lib\rt.jar;C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_201\lib\jce.jar;C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_201\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testBuscarEmpresaCnpjValido" classname="com.kazale.pontointeligente.api.controllers.EmpresaControllerTest" time="0.051">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42000
+Error Code : 42000
+Message    : Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+Location   : db/migration/mysql/V1__init.sql (C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\db\migration\mysql\V1__init.sql)
+Line       : 44
+Statement  : ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`)
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42000
+Error Code : 42000
+Message    : Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+Location   : db/migration/mysql/V1__init.sql (C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\db\migration\mysql\V1__init.sql)
+Line       : 44
+Statement  : ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`)
+
+	at org.flywaydb.core.internal.dbsupport.SqlScript.execute(SqlScript.java:117)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:71)
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:284)
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:282)
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigration(DbMigrate.java:282)
+	at org.flywaydb.core.internal.command.DbMigrate.access$800(DbMigrate.java:46)
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:207)
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156)
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:191)
+	at org.h2.command.Parser.getSyntaxError(Parser.java:534)
+	at org.h2.command.Parser.prepareCommand(Parser.java:261)
+	at org.h2.engine.Session.prepareLocal(Session.java:578)
+	at org.h2.engine.Session.prepareCommand(Session.java:519)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:176)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy101.execute(Unknown Source)
+	at org.flywaydb.core.internal.dbsupport.JdbcTemplate.executeStatement(JdbcTemplate.java:238)
+	at org.flywaydb.core.internal.dbsupport.SqlScript.execute(SqlScript.java:114)
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:71)
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:284)
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:282)
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72)
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigration(DbMigrate.java:282)
+	at org.flywaydb.core.internal.command.DbMigrate.access$800(DbMigrate.java:46)
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:207)
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156)
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+    <system-out><![CDATA[18:37:14.827 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:14.879 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:14.970 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:15.091 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:15.154 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest], using SpringBootContextLoader
+18:37:15.169 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: class path resource [com/kazale/pontointeligente/api/controllers/EmpresaControllerTest-context.xml] does not exist
+18:37:15.171 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: class path resource [com/kazale/pontointeligente/api/controllers/EmpresaControllerTestContext.groovy] does not exist
+18:37:15.172 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:15.175 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: EmpresaControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:15.528 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:15.531 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:15.532 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:15.579 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kazale/pontointeligente/api/controllers/] to resources [URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/controllers/], URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/controllers/]]
+18:37:15.586 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\controllers]
+18:37:15.590 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\controllers] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/controllers/*.class]
+18:37:15.604 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\controllers]
+18:37:15.609 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\controllers] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/controllers/*.class]
+18:37:15.643 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kazale/pontointeligente/api/controllers/*.class] to resources [file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\controllers\EmpresaControllerTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\controllers\LancamentoControllerTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\controllers\CadastroPFController.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\controllers\CadastroPJController.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\controllers\EmpresaController.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\controllers\FuncionarioController.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\controllers\LancamentoController.class]]
+18:37:15.981 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kazale/pontointeligente/api/] to resources [URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/], URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/]]
+18:37:15.981 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api]
+18:37:15.983 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/*.class]
+18:37:15.988 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api]
+18:37:15.989 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/*.class]
+18:37:16.003 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kazale/pontointeligente/api/*.class] to resources [file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\PontoInteligenteApplicationTests.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]]
+18:37:16.095 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]
+18:37:16.099 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.controllers.EmpresaControllerTest
+18:37:16.118 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: using defaults.
+18:37:16.137 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:16.210 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43301423, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2f112965, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1a04f701, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e91d63f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@d4342c2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2bbf180e, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@163e4e87, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56de5251, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@419c5f1a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@12b0404f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@769e7ee8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5276e6b0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@71b1176b]
+18:37:16.292 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]
+18:37:16.293 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:16.294 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:16.297 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:16.299 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest], using SpringBootContextLoader
+18:37:16.308 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]: class path resource [com/kazale/pontointeligente/api/controllers/LancamentoControllerTest-context.xml] does not exist
+18:37:16.310 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]: class path resource [com/kazale/pontointeligente/api/controllers/LancamentoControllerTestContext.groovy] does not exist
+18:37:16.313 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:16.315 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]: LancamentoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:16.409 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:16.409 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:16.410 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:16.410 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.controllers.LancamentoControllerTest
+18:37:16.414 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]: using defaults.
+18:37:16.446 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:16.468 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@21de60b4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c267ef4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@30ee2816, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31d7b7bf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@635eaaf1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c30a9b0, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1ddf84b8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1139b2f3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7a69b07, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e82df6a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3f197a46, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@636be97c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50a638b5]
+18:37:16.469 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]
+18:37:16.470 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:16.471 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:16.472 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:16.473 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests], using SpringBootContextLoader
+18:37:16.475 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]: class path resource [com/kazale/pontointeligente/api/PontoInteligenteApplicationTests-context.xml] does not exist
+18:37:16.477 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]: class path resource [com/kazale/pontointeligente/api/PontoInteligenteApplicationTestsContext.groovy] does not exist
+18:37:16.477 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:16.477 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]: PontoInteligenteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:16.528 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:16.528 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:16.528 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:16.542 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kazale/pontointeligente/api/] to resources [URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/], URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/]]
+18:37:16.543 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api]
+18:37:16.545 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/*.class]
+18:37:16.553 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api]
+18:37:16.568 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/*.class]
+18:37:16.582 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kazale/pontointeligente/api/*.class] to resources [file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\PontoInteligenteApplicationTests.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]]
+18:37:16.593 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]
+18:37:16.594 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.PontoInteligenteApplicationTests
+18:37:16.596 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]: using defaults.
+18:37:16.609 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:16.627 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6dc17b83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e0826e7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32eff876, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8dbdac1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6e20b53a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@71809907, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3ce1e309, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6aba2b86, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@158da8e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74e52303, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3bb9a3ff]
+18:37:16.661 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]
+18:37:16.662 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:16.663 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:16.664 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:16.664 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest], using SpringBootContextLoader
+18:37:16.666 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]: class path resource [com/kazale/pontointeligente/api/repositories/EmpresaRepositoryTest-context.xml] does not exist
+18:37:16.668 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]: class path resource [com/kazale/pontointeligente/api/repositories/EmpresaRepositoryTestContext.groovy] does not exist
+18:37:16.669 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:16.669 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]: EmpresaRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:16.690 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:16.690 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:16.691 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:16.693 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kazale/pontointeligente/api/repositories/] to resources [URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/repositories/], URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/repositories/]]
+18:37:16.693 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\repositories]
+18:37:16.695 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\repositories] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/repositories/*.class]
+18:37:16.702 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\repositories]
+18:37:16.708 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\repositories] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/repositories/*.class]
+18:37:16.719 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kazale/pontointeligente/api/repositories/*.class] to resources [file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\repositories\EmpresaRepositoryTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\repositories\FuncionarioRepositoryTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\repositories\LancamentoRepositoryTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\repositories\EmpresaRepository.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\repositories\FuncionarioRepository.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\repositories\LancamentoRepository.class]]
+18:37:16.781 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kazale/pontointeligente/api/] to resources [URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/], URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/]]
+18:37:16.782 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api]
+18:37:16.788 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/*.class]
+18:37:16.794 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api]
+18:37:16.796 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/*.class]
+18:37:16.805 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kazale/pontointeligente/api/*.class] to resources [file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\PontoInteligenteApplicationTests.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]]
+18:37:16.811 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]
+18:37:16.811 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest
+18:37:16.812 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]: using defaults.
+18:37:16.831 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:16.844 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1aafa419, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47eaca72, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55141def, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55182842, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3270d194, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@235834f2, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@5656be13, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4218d6a3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@76505305, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@14cd1699, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@77888435, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73a1e9a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@71d44a3]
+18:37:16.855 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]
+18:37:16.857 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:16.857 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:16.858 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:16.860 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest], using SpringBootContextLoader
+18:37:16.862 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]: class path resource [com/kazale/pontointeligente/api/repositories/FuncionarioRepositoryTest-context.xml] does not exist
+18:37:16.864 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]: class path resource [com/kazale/pontointeligente/api/repositories/FuncionarioRepositoryTestContext.groovy] does not exist
+18:37:16.865 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:16.866 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]: FuncionarioRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:16.881 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:16.882 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:16.882 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:16.883 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest
+18:37:16.884 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]: using defaults.
+18:37:16.899 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:16.921 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@477b4cdf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77c2494c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f5958c9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@233795b6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3eb738bb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5bda8e08, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1e800aaa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@185a6e9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f03482, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@9d5509a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@179ece50, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3b0090a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3cd3e762]
+18:37:16.927 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]
+18:37:16.929 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:16.929 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:16.930 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:16.954 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest], using SpringBootContextLoader
+18:37:16.956 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]: class path resource [com/kazale/pontointeligente/api/repositories/LancamentoRepositoryTest-context.xml] does not exist
+18:37:16.958 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]: class path resource [com/kazale/pontointeligente/api/repositories/LancamentoRepositoryTestContext.groovy] does not exist
+18:37:16.959 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:16.961 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]: LancamentoRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:16.982 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:16.982 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:16.983 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:16.983 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest
+18:37:16.986 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]: using defaults.
+18:37:17.014 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:17.027 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13b6aecc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@158a8276, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3c3d9b6b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@79d8407f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5fbe4146, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e66f1f5, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4e50c791, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7530ad9c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@58a9760d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71e9ddb4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@394df057, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4961f6af, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5aebe890]
+18:37:17.029 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.services.EmpresaServiceTest]
+18:37:17.029 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:17.030 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:17.031 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.services.EmpresaServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:17.031 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.services.EmpresaServiceTest], using SpringBootContextLoader
+18:37:17.033 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.services.EmpresaServiceTest]: class path resource [com/kazale/pontointeligente/api/services/EmpresaServiceTest-context.xml] does not exist
+18:37:17.036 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.services.EmpresaServiceTest]: class path resource [com/kazale/pontointeligente/api/services/EmpresaServiceTestContext.groovy] does not exist
+18:37:17.036 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.services.EmpresaServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:17.036 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.services.EmpresaServiceTest]: EmpresaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:17.062 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:17.109 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:17.112 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:17.116 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kazale/pontointeligente/api/services/] to resources [URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/services/], URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/services/]]
+18:37:17.118 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\services]
+18:37:17.120 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\services] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/services/*.class]
+18:37:17.125 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\services]
+18:37:17.128 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\services] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/services/*.class]
+18:37:17.132 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kazale/pontointeligente/api/services/*.class] to resources [file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\services\EmpresaServiceTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\services\FuncionarioServiceTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\services\LancamentoServiceTest.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\services\EmpresaService.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\services\FuncionarioService.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\services\LancamentoService.class]]
+18:37:17.149 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/kazale/pontointeligente/api/] to resources [URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/], URL [file:/C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/]]
+18:37:17.172 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api]
+18:37:17.175 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/test-classes/com/kazale/pontointeligente/api/*.class]
+18:37:17.180 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api]
+18:37:17.190 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api] for files matching pattern [C:/Users/Mary/Documents/workspace21/ponto-inteligente-api/target/classes/com/kazale/pontointeligente/api/*.class]
+18:37:17.206 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/kazale/pontointeligente/api/*.class] to resources [file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\test-classes\com\kazale\pontointeligente\api\PontoInteligenteApplicationTests.class], file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]]
+18:37:17.219 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\com\kazale\pontointeligente\api\PontoInteligenteApplication.class]
+18:37:17.219 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.services.EmpresaServiceTest
+18:37:17.221 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.services.EmpresaServiceTest]: using defaults.
+18:37:17.245 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:17.258 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a266d09, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5ab9e72c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@186f8716, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d8bd0de, org.springframework.test.context.transaction.TransactionalTestExecutionListener@45ca843, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@11c9af63, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@757acd7b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@36b4fe2a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@574b560f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ba54932, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28975c28, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3943a2be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@343570b7]
+18:37:17.259 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.services.FuncionarioServiceTest]
+18:37:17.259 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:17.259 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:17.260 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:17.260 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest], using SpringBootContextLoader
+18:37:17.262 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest]: class path resource [com/kazale/pontointeligente/api/services/FuncionarioServiceTest-context.xml] does not exist
+18:37:17.263 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest]: class path resource [com/kazale/pontointeligente/api/services/FuncionarioServiceTestContext.groovy] does not exist
+18:37:17.264 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:17.264 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest]: FuncionarioServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:17.277 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:17.277 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:17.277 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:17.278 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.services.FuncionarioServiceTest
+18:37:17.279 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest]: using defaults.
+18:37:17.290 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:17.315 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59af0466, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e6ef8ad, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@346d61be, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55536d9e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@747edf66, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3d1cfad4, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@62230c58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2cd2a21f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2e55dd0c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74455848, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@e7edb54, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@378542de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3738449f]
+18:37:17.320 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.services.LancamentoServiceTest]
+18:37:17.322 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:17.323 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:17.324 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.services.LancamentoServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:17.325 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.services.LancamentoServiceTest], using SpringBootContextLoader
+18:37:17.327 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.services.LancamentoServiceTest]: class path resource [com/kazale/pontointeligente/api/services/LancamentoServiceTest-context.xml] does not exist
+18:37:17.329 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.services.LancamentoServiceTest]: class path resource [com/kazale/pontointeligente/api/services/LancamentoServiceTestContext.groovy] does not exist
+18:37:17.329 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.services.LancamentoServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:17.329 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.services.LancamentoServiceTest]: LancamentoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:17.345 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:17.345 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:17.345 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:17.346 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.services.LancamentoServiceTest
+18:37:17.347 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.services.LancamentoServiceTest]: using defaults.
+18:37:17.371 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:17.382 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@759d26fb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c73951, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d5c822d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f46426d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73700b80, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@49c7b90e, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@10d307f1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4d5b6aac, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3e84448c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a7f959b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@429bffaa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5403f35f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@483f6d77]
+18:37:17.397 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.398 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.400 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]
+18:37:17.401 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.controllers.LancamentoControllerTest]
+18:37:17.404 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]
+18:37:17.405 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.PontoInteligenteApplicationTests]
+18:37:17.406 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]
+18:37:17.406 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.repositories.EmpresaRepositoryTest]
+18:37:17.406 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]
+18:37:17.414 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.repositories.FuncionarioRepositoryTest]
+18:37:17.415 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]
+18:37:17.415 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.repositories.LancamentoRepositoryTest]
+18:37:17.420 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.services.EmpresaServiceTest]
+18:37:17.422 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.services.EmpresaServiceTest]
+18:37:17.422 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest]
+18:37:17.423 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.services.FuncionarioServiceTest]
+18:37:17.424 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.services.LancamentoServiceTest]
+18:37:17.424 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.services.LancamentoServiceTest]
+18:37:17.451 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.453 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:37:17.453 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:37:17.455 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:37:17.457 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest], using SpringBootContextLoader
+18:37:17.460 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: class path resource [com/kazale/pontointeligente/api/controllers/EmpresaControllerTest-context.xml] does not exist
+18:37:17.462 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: class path resource [com/kazale/pontointeligente/api/controllers/EmpresaControllerTestContext.groovy] does not exist
+18:37:17.463 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:37:17.463 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: EmpresaControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:37:17.494 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:17.494 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:17.495 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:17.495 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kazale.pontointeligente.api.PontoInteligenteApplication for test class com.kazale.pontointeligente.api.controllers.EmpresaControllerTest
+18:37:17.496 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]: using defaults.
+18:37:17.505 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener]
+18:37:17.519 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4310d43, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@54a7079e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@26e356f0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47d9a273, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b8ee4de, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@27f981c6, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1b11171f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1151e434, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2dc54ad4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4659191b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@55634720, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4b0d79fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4c1909a3]
+18:37:17.519 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.520 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.522 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.522 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.528 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@13fd2ccd testClass = EmpresaControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@b9b00e0 testClass = EmpresaControllerTest, locations = '{}', classes = '{class com.kazale.pontointeligente.api.PontoInteligenteApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@506ae4d4 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.SpringBootTestContextCustomizer@18bf3d14, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@782663d3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@25bbf683, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@405865c5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4516af24], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+18:37:17.529 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.529 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest]
+18:37:17.728 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:37:17.728 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:37:17.728 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:37:17.729 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [test] PropertySource with highest search precedence
+18:37:17.731 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+18:37:17.751 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+18:37:17.752 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2019-03-17 18:37:18.898  INFO 381192 --- [           main] c.k.p.a.c.EmpresaControllerTest          : Starting EmpresaControllerTest on LAPTOP-MSH6G38N with PID 381192 (started by Mary in C:\Users\Mary\Documents\workspace21\ponto-inteligente-api)
+2019-03-17 18:37:18.904  INFO 381192 --- [           main] c.k.p.a.c.EmpresaControllerTest          : The following profiles are active: test
+2019-03-17 18:37:18.970  INFO 381192 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7a1a14a4: startup date [Sun Mar 17 18:37:18 BRT 2019]; root of context hierarchy
+2019-03-17 18:37:28.868  INFO 381192 --- [           main] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2019-03-17 18:37:29.422  INFO 381192 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:h2:mem:db (H2 1.4)
+2019-03-17 18:37:29.638  INFO 381192 --- [           main] o.f.core.internal.command.DbValidate     : Validated 2 migrations (execution time 00:00.105s)
+2019-03-17 18:37:29.693  INFO 381192 --- [           main] o.f.c.i.metadatatable.MetaDataTableImpl  : Creating Metadata table: "PUBLIC"."schema_version"
+2019-03-17 18:37:29.778  INFO 381192 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2019-03-17 18:37:29.778  INFO 381192 --- [           main] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version 1 - init
+2019-03-17 18:37:29.800 ERROR 381192 --- [           main] o.f.core.internal.command.DbMigrate      : Migration of schema "PUBLIC" to version 1 failed! Please restore backups and roll back database and code!
+2019-03-17 18:37:29.821  WARN 381192 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42000
+Error Code : 42000
+Message    : Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+Location   : db/migration/mysql/V1__init.sql (C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\db\migration\mysql\V1__init.sql)
+Line       : 44
+Statement  : ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`)
+
+2019-03-17 18:37:29.845  INFO 381192 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-03-17 18:37:29.885 ERROR 381192 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42000
+Error Code : 42000
+Message    : Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+Location   : db/migration/mysql/V1__init.sql (C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\db\migration\mysql\V1__init.sql)
+Line       : 44
+Statement  : ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`)
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42000
+Error Code : 42000
+Message    : Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+Location   : db/migration/mysql/V1__init.sql (C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\db\migration\mysql\V1__init.sql)
+Line       : 44
+Statement  : ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`)
+
+	at org.flywaydb.core.internal.dbsupport.SqlScript.execute(SqlScript.java:117) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:71) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:284) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:282) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigration(DbMigrate.java:282) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.access$800(DbMigrate.java:46) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:207) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 43 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.message.DbException.getSyntaxError(DbException.java:191) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.command.Parser.getSyntaxError(Parser.java:534) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.command.Parser.prepareCommand(Parser.java:261) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.engine.Session.prepareLocal(Session.java:578) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.engine.Session.prepareCommand(Session.java:519) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:176) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:164) ~[h2-1.4.196.jar:1.4.196]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114) ~[tomcat-jdbc-8.5.16.jar:na]
+	at com.sun.proxy.$Proxy101.execute(Unknown Source) ~[na:na]
+	at org.flywaydb.core.internal.dbsupport.JdbcTemplate.executeStatement(JdbcTemplate.java:238) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.dbsupport.SqlScript.execute(SqlScript.java:114) ~[flyway-core-3.2.1.jar:na]
+	... 60 common frames omitted
+
+2019-03-17 18:37:29.893 ERROR 381192 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4310d43] to prepare test instance [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest@748ac6f3]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42000
+Error Code : 42000
+Message    : Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+Location   : db/migration/mysql/V1__init.sql (C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\db\migration\mysql\V1__init.sql)
+Line       : 44
+Statement  : ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`)
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 26 common frames omitted
+Caused by: org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException: 
+Migration V1__init.sql failed
+-----------------------------
+SQL State  : 42000
+Error Code : 42000
+Message    : Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+Location   : db/migration/mysql/V1__init.sql (C:\Users\Mary\Documents\workspace21\ponto-inteligente-api\target\classes\db\migration\mysql\V1__init.sql)
+Line       : 44
+Statement  : ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`)
+
+	at org.flywaydb.core.internal.dbsupport.SqlScript.execute(SqlScript.java:117) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(SqlMigrationExecutor.java:71) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:284) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$5.doInTransaction(DbMigrate.java:282) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.applyMigration(DbMigrate.java:282) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.access$800(DbMigrate.java:46) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:207) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 43 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""FUNCIONARIO""
+  ADD PRIMARY KEY (""ID""),[*]
+  ADD KEY ""FK4CM1KG523JLOPYEXJBMI6Y54J"" (""EMPRESA_ID"") "; SQL statement:
+ALTER TABLE `funcionario`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK4cm1kg523jlopyexjbmi6y54j` (`empresa_id`) [42000-196]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.message.DbException.getSyntaxError(DbException.java:191) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.command.Parser.getSyntaxError(Parser.java:534) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.command.Parser.prepareCommand(Parser.java:261) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.engine.Session.prepareLocal(Session.java:578) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.engine.Session.prepareCommand(Session.java:519) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:176) ~[h2-1.4.196.jar:1.4.196]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:164) ~[h2-1.4.196.jar:1.4.196]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114) ~[tomcat-jdbc-8.5.16.jar:na]
+	at com.sun.proxy.$Proxy101.execute(Unknown Source) ~[na:na]
+	at org.flywaydb.core.internal.dbsupport.JdbcTemplate.executeStatement(JdbcTemplate.java:238) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.dbsupport.SqlScript.execute(SqlScript.java:114) ~[flyway-core-3.2.1.jar:na]
+	... 60 common frames omitted
+
+]]></system-out>
+  </testcase>
+  <testcase name="testBuscarEmpresaCnpjInvalido" classname="com.kazale.pontointeligente.api.controllers.EmpresaControllerTest" time="0.003">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:196)
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156)
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72)
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059)
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006)
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418)
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006)
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2019-03-17 18:37:30.348  INFO 381192 --- [           main] c.k.p.a.c.EmpresaControllerTest          : Starting EmpresaControllerTest on LAPTOP-MSH6G38N with PID 381192 (started by Mary in C:\Users\Mary\Documents\workspace21\ponto-inteligente-api)
+2019-03-17 18:37:30.348  INFO 381192 --- [           main] c.k.p.a.c.EmpresaControllerTest          : The following profiles are active: test
+2019-03-17 18:37:30.354  INFO 381192 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@60a7e509: startup date [Sun Mar 17 18:37:30 BRT 2019]; root of context hierarchy
+2019-03-17 18:37:35.763  INFO 381192 --- [           main] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:h2:mem:db (H2 1.4)
+2019-03-17 18:37:35.843  INFO 381192 --- [           main] o.f.core.internal.command.DbValidate     : Validated 2 migrations (execution time 00:00.058s)
+2019-03-17 18:37:35.863  INFO 381192 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": 1
+2019-03-17 18:37:35.866  WARN 381192 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+2019-03-17 18:37:35.903  INFO 381192 --- [           main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-03-17 18:37:35.928 ERROR 381192 --- [           main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:196) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 43 common frames omitted
+
+2019-03-17 18:37:35.955 ERROR 381192 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4310d43] to prepare test instance [com.kazale.pontointeligente.api.controllers.EmpresaControllerTest@216c22ce]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128) [surefire-junit4-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.1.jar:2.18.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.1.jar:2.18.1]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 26 common frames omitted
+Caused by: org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:196) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:156) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1059) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1418) ~[flyway-core-3.2.1.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:1006) ~[flyway-core-3.2.1.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 43 common frames omitted
+
+]]></system-out>
+  </testcase>
+</testsuite>
