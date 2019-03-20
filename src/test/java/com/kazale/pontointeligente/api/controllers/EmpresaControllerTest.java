@@ -29,7 +29,7 @@ import com.kazale.pontointeligente.api.services.EmpresaService;
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
 public class EmpresaControllerTest {
-
+	// @WithMockUser
 	@Autowired
 	private MockMvc mvc;
 
