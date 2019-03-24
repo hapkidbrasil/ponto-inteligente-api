@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.kazale.pontointeligente.api.services.LancamentoServiceTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.419 sec - in com.kazale.pontointeligente.api.services.LancamentoServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.765 sec - in com.kazale.pontointeligente.api.services.LancamentoServiceTest
